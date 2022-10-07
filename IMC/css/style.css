@@ -1,0 +1,103 @@
+body {
+    border-color: #fff;
+    border-style: groove;
+    border-radius: 6px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(118, 32, 184, 0.584);
+}
+h1{
+    margin-top: 5%;
+    text-align: center;
+    width: 100%;
+    color: azure;    
+}
+h3 {
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #fff;
+    color: rgba(118, 32, 184, 0.978);
+}
+body p {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+body .border{
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: rgb(104, 8, 130); 
+    border-style: groove;
+}
+body p label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: #fff;
+}
+body p input {
+    font-size: 17px;
+    width: 55%;
+    height: 35px;
+    border-radius: 12px;
+    border-style: groove;
+    border-color:rgb(66, 5, 123);
+}
+body p input {
+    color: rgb(59, 8, 106);
+}
+body button {
+    height: 8vh;
+    color: #fff;
+    width: 60%;
+    cursor: pointer;
+    border-color: #fff;
+    border-style: groove;
+    border-radius: 19px;
+    font-size: 17px;
+    background-color: blueviolet;
+    transition: all 0.3s ease;
+} 
+body button:hover {
+    background-color: #fff;
+    color: blueviolet;
+}
+#paragraph-result {     
+    font-size: 25px;
+    border-width: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:blueviolet;
+    color: rgb(255, 255, 255);
+}
+#imc-result {
+    margin-left: 10px;
+    font-size: 25px;
+    border-color: blueviolet;
+    border-width: 1px;
+    border-width: 1px;
+    border-radius: 3px;
+    background-color: #fff;
+    color:rgb(255, 0, 251);    
+}
+body figure { 
+    color: #fff;
+    margin-left: 1px;
+    margin-right: 1px;
+    font-size: 25px;
+    font-style:initial;
+    border-width: 4px;
+    border-color: rgb(104, 8, 130); 
+    border-style: groove;
+    border-radius: 10px;  
+    text-align: center;
+    align-items: center;
+}
+body figure img {
+    width: 70%;
+    border-radius: 12px;
+}
+
+
+

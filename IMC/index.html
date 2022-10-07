@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <html lang="pt-BR">
+        <head>
+            <meta charset="UTF-8"/>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="./css/style.css">
+
+             <title>Calcuar IMC</title>
+    </head>  
+        <body>
+            <h1>Calcule seu Indice de Massa Corporal</h1>
+            <h3>IMC</h3>             
+
+        <div class="border">            
+            <div>
+                <p>  
+                    <label for="input-weigth">Peso (kg): </label><br />          
+                    <input id="input-weigth" type="number" value="98" step="0.1"/></label><br />
+                </p>
+            </div>
+            <div>
+                <p>
+                    <label for="input-heigth">Altura (m): </label><br />           
+                    <input id="input-heigth" type="number" value="1.78" step="0.01"/></label><br />            
+                </p>
+            </div>
+            <div>
+                <p>
+                    <button id="button-calculate-imc" >Calculando indice de massa corporal...</button>
+                </p>
+            </div>
+        </div>
+            <div class="menu-2">
+                <p id="paragraph-result">Seu indice de massa corporal é <strong id="imc-result"></strong></p>
+                <p>
+                    <figure>
+                        <figcaption>Tabela de comparação</figcaption>
+                        <img width="300" src="./img01/imc.jpg" alt="Imc" />
+                    </figure> 
+                </p>
+            </div>
+                <script defer src="./js/script.js"></script>
+            </body>
+    </html>
